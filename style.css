@@ -1,0 +1,29 @@
+canvas {
+    border: 3px black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 54px;
+}
+body{
+    text-align: center;
+    background-size: cover;
+}
+html{
+    background-repeat: no-repeat;
+}
+#savefilter {
+    background-color: blue;
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    color: white;
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px purple;}
+}
+
